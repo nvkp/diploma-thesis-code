@@ -1,0 +1,850 @@
+[
+{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<dealsWith>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<happenedIn>",
+    "subject": {
+      "type": "variable",
+      "value": "?b"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<participatedIn>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 1.0
+  }, {
+    "name": "PcaConfidence",
+    "value": 1.0
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.0004377006127808579
+  }, {
+    "name": "Lift",
+    "value": 3.0781936023416265
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.32486585614344904
+  }, {
+    "name": "HeadSize",
+    "value": 6854
+  }, {
+    "name": "BodySize",
+    "value": 3
+  }, {
+    "name": "Support",
+    "value": 3
+  }, {
+    "name": "PcaBodySize",
+    "value": 3
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isLocatedIn>",
+    "subject": {
+      "type": "variable",
+      "value": "?c"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<actedIn>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isCitizenOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 0.6666666666666666
+  }, {
+    "name": "PcaConfidence",
+    "value": 0.6666666666666666
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.0034602076124567475
+  }, {
+    "name": "Lift",
+    "value": 1.2914285714285714
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.5162241887905604
+  }, {
+    "name": "HeadSize",
+    "value": 578
+  }, {
+    "name": "BodySize",
+    "value": 3
+  }, {
+    "name": "Support",
+    "value": 2
+  }, {
+    "name": "PcaBodySize",
+    "value": 3
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<hasCapital>",
+    "subject": {
+      "type": "variable",
+      "value": "?b"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<livesIn>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isCitizenOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 1.0
+  }, {
+    "name": "PcaConfidence",
+    "value": 1.0
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.0034602076124567475
+  }, {
+    "name": "Lift",
+    "value": 1.9371428571428573
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.5162241887905604
+  }, {
+    "name": "HeadSize",
+    "value": 578
+  }, {
+    "name": "BodySize",
+    "value": 2
+  }, {
+    "name": "Support",
+    "value": 2
+  }, {
+    "name": "PcaBodySize",
+    "value": 2
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<hasNeighbor>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?a"
+    },
+    "predicate": "<hasNeighbor>",
+    "subject": {
+      "type": "variable",
+      "value": "?b"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<dealsWith>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 0.5416666666666666
+  }, {
+    "name": "PcaConfidence",
+    "value": 0.7222222222222222
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.05752212389380531
+  }, {
+    "name": "Lift",
+    "value": 173.36865942028984
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.003124363241187258
+  }, {
+    "name": "HeadSize",
+    "value": 226
+  }, {
+    "name": "BodySize",
+    "value": 24
+  }, {
+    "name": "Support",
+    "value": 13
+  }, {
+    "name": "PcaBodySize",
+    "value": 18
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<hasCapital>",
+    "subject": {
+      "type": "variable",
+      "value": "?b"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<livesIn>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isLeaderOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 1.0
+  }, {
+    "name": "PcaConfidence",
+    "value": 1.0
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.00823045267489712
+  }, {
+    "name": "Lift",
+    "value": 61.09128630705394
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.0163689465462202
+  }, {
+    "name": "HeadSize",
+    "value": 243
+  }, {
+    "name": "BodySize",
+    "value": 2
+  }, {
+    "name": "Support",
+    "value": 2
+  }, {
+    "name": "PcaBodySize",
+    "value": 2
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isLocatedIn>",
+    "subject": {
+      "type": "variable",
+      "value": "?c"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<hasNeighbor>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isLocatedIn>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 0.6666666666666666
+  }, {
+    "name": "PcaConfidence",
+    "value": 0.6666666666666666
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.03389830508474576
+  }, {
+    "name": "Lift",
+    "value": 55.76893939393939
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.011954085444542552
+  }, {
+    "name": "HeadSize",
+    "value": 295
+  }, {
+    "name": "BodySize",
+    "value": 15
+  }, {
+    "name": "Support",
+    "value": 10
+  }, {
+    "name": "PcaBodySize",
+    "value": 15
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?a"
+    },
+    "predicate": "<dealsWith>",
+    "subject": {
+      "type": "variable",
+      "value": "?b"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?a"
+    },
+    "predicate": "<hasNeighbor>",
+    "subject": {
+      "type": "variable",
+      "value": "?b"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<hasNeighbor>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 0.8125
+  }, {
+    "name": "PcaConfidence",
+    "value": 0.8666666666666667
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.12871287128712872
+  }, {
+    "name": "Lift",
+    "value": 168.48503521126761
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.004822386741832507
+  }, {
+    "name": "HeadSize",
+    "value": 101
+  }, {
+    "name": "BodySize",
+    "value": 16
+  }, {
+    "name": "Support",
+    "value": 13
+  }, {
+    "name": "PcaBodySize",
+    "value": 15
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<playsFor>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isAffiliatedTo>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 0.6153846153846154
+  }, {
+    "name": "PcaConfidence",
+    "value": 0.9696969696969697
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.3018867924528302
+  }, {
+    "name": "Lift",
+    "value": 119.21457489878543
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.005161991441961557
+  }, {
+    "name": "HeadSize",
+    "value": 106
+  }, {
+    "name": "BodySize",
+    "value": 52
+  }, {
+    "name": "Support",
+    "value": 32
+  }, {
+    "name": "PcaBodySize",
+    "value": 33
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<dealsWith>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?a"
+    },
+    "predicate": "<hasNeighbor>",
+    "subject": {
+      "type": "variable",
+      "value": "?b"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<hasNeighbor>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 1.0
+  }, {
+    "name": "PcaConfidence",
+    "value": 1.0
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.12871287128712872
+  }, {
+    "name": "Lift",
+    "value": 207.36619718309862
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.004822386741832507
+  }, {
+    "name": "HeadSize",
+    "value": 101
+  }, {
+    "name": "BodySize",
+    "value": 13
+  }, {
+    "name": "Support",
+    "value": 13
+  }, {
+    "name": "PcaBodySize",
+    "value": 13
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isPoliticianOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isCitizenOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 0.6451612903225806
+  }, {
+    "name": "PcaConfidence",
+    "value": 0.6666666666666666
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.03460207612456748
+  }, {
+    "name": "Lift",
+    "value": 1.2497695852534563
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.5162241887905604
+  }, {
+    "name": "HeadSize",
+    "value": 578
+  }, {
+    "name": "BodySize",
+    "value": 31
+  }, {
+    "name": "Support",
+    "value": 20
+  }, {
+    "name": "PcaBodySize",
+    "value": 30
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isPoliticianOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isLeaderOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isCitizenOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 1.0
+  }, {
+    "name": "PcaConfidence",
+    "value": 1.0
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.0034602076124567475
+  }, {
+    "name": "Lift",
+    "value": 1.9371428571428573
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.5162241887905604
+  }, {
+    "name": "HeadSize",
+    "value": 578
+  }, {
+    "name": "BodySize",
+    "value": 2
+  }, {
+    "name": "Support",
+    "value": 2
+  }, {
+    "name": "PcaBodySize",
+    "value": 2
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<isMarriedTo>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<hasChild>",
+    "subject": {
+      "type": "variable",
+      "value": "?c"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<hasChild>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 0.6
+  }, {
+    "name": "PcaConfidence",
+    "value": 0.6
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.031746031746031744
+  }, {
+    "name": "Lift",
+    "value": 47.75027027027027
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.012565373904774841
+  }, {
+    "name": "HeadSize",
+    "value": 189
+  }, {
+    "name": "BodySize",
+    "value": 10
+  }, {
+    "name": "Support",
+    "value": 6
+  }, {
+    "name": "PcaBodySize",
+    "value": 10
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<influences>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isCitizenOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?c"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isCitizenOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 1.0
+  }, {
+    "name": "PcaConfidence",
+    "value": 1.0
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.006920415224913495
+  }, {
+    "name": "Lift",
+    "value": 1.9371428571428573
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.5162241887905604
+  }, {
+    "name": "HeadSize",
+    "value": 578
+  }, {
+    "name": "BodySize",
+    "value": 4
+  }, {
+    "name": "Support",
+    "value": 4
+  }, {
+    "name": "PcaBodySize",
+    "value": 4
+  }]
+}
+,{
+  "body": [{
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<hasCapital>",
+    "subject": {
+      "type": "variable",
+      "value": "?b"
+    }
+  }, {
+    "object": {
+      "type": "variable",
+      "value": "?c"
+    },
+    "predicate": "<diedIn>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  }],
+  "head": {
+    "object": {
+      "type": "variable",
+      "value": "?b"
+    },
+    "predicate": "<isCitizenOf>",
+    "subject": {
+      "type": "variable",
+      "value": "?a"
+    }
+  },
+  "measures": [{
+    "name": "Confidence",
+    "value": 0.8571428571428571
+  }, {
+    "name": "PcaConfidence",
+    "value": 1.0
+  }, {
+    "name": "HeadCoverage",
+    "value": 0.010380622837370242
+  }, {
+    "name": "Lift",
+    "value": 1.6604081632653063
+  }, {
+    "name": "HeadConfidence",
+    "value": 0.5162241887905604
+  }, {
+    "name": "HeadSize",
+    "value": 578
+  }, {
+    "name": "BodySize",
+    "value": 7
+  }, {
+    "name": "Support",
+    "value": 6
+  }, {
+    "name": "PcaBodySize",
+    "value": 6
+  }]
+}
+]
