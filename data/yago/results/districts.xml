@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='district'/>
+	</head>
+	<results>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Frýdek-Místek_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Hradec_Králové_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Rychnov_nad_Kněžnou_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Tábor_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Semily_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Vyškov_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Žďár_nad_Sázavou_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Brno-City_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/České_Budějovice_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Jablonec_nad_Nisou_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Kladno_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Liberec_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Louny_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Mělník_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Náchod_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Ostrava-City_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Pardubice_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Pelhřimov_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Přerov_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Šumperk_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Ústí_nad_Labem_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Uherské_Hradiště_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Kutná_Hora_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Prostějov_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Opava_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Mladá_Boleslav_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Bruntál_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Sokolov_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Trutnov_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Břeclav_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Brno-Country_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Havlíčkův_Brod_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Kroměříž_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Most_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Nový_Jičín_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Olomouc_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Třebíč_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Vsetín_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Benešov_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Beroun_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Chrudim_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Jičín_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Jihlava_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Jindřichův_Hradec_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Litoměřice_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Písek_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Prague-East_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Prague-West_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Příbram_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Ústí_nad_Orlicí_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Zlín_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Znojmo_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Česká_Lípa_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Český_Krumlov_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Cheb_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Chomutov_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Děčín_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Hodonín_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Jeseník_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Karlovy_Vary_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Kolín_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Nymburk_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Prachatice_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Rakovník_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Strakonice_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Svitavy_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Teplice_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Blansko_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Karviná_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Plzeň-City_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Klatovy_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Plzeň-North_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Domažlice_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Rokycany_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Tachov_District</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='district'>
+				<uri>http://yago-knowledge.org/resource/Plzeň-South_District</uri>
+			</binding>
+		</result>
+	</results>
+</sparql>

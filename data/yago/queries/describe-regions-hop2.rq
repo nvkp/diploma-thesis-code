@@ -1,0 +1,7 @@
+query=PREFIX yago: <http://yago-knowledge.org/resource/>
+
+describe ?hop2 where {
+?region a yago:Regions_of_the_Czech_Republic .
+?hop1 ?p1 ?region .
+?hop2 ?p2 ?hop1 .
+}

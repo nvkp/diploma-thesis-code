@@ -1,0 +1,272 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/116>
+        owl:sameAs  <http://www.wikidata.org/entity/Q192697> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/94>
+        owl:sameAs  <http://www.wikidata.org/entity/Q193317> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/35>
+        owl:sameAs  <http://www.wikidata.org/entity/Q188373> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/108>
+        owl:sameAs  <http://www.wikidata.org/entity/Q190930> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/86>
+        owl:sameAs  <http://www.wikidata.org/entity/Q193295> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/27>
+        owl:sameAs  <http://www.wikidata.org/entity/Q188399> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/19>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1085> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/132>
+        owl:sameAs  <http://www.wikidata.org/entity/Q190550> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/78>
+        owl:sameAs  <http://www.wikidata.org/entity/Q193266> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/51>
+        owl:sameAs  <http://www.wikidata.org/entity/Q191091> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/141>
+        owl:sameAs  <http://www.wikidata.org/entity/Q192536> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/60>
+        owl:sameAs  <http://www.wikidata.org/entity/Q192702> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/124>
+        owl:sameAs  <http://www.wikidata.org/entity/Q193307> .
+
+<http://ruian.linked.opendata.cz/resource/vusc/43>
+        owl:sameAs  <http://www.wikidata.org/entity/Q46070> .
+        
+<http://ruian.linked.opendata.cz/resource/okresy/3601>
+        owl:sameAs  <http://www.wikidata.org/entity/Q368105> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3407>
+        owl:sameAs  <http://www.wikidata.org/entity/Q266036> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3501>
+        owl:sameAs  <http://www.wikidata.org/entity/Q538500> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3806>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838320> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3307>
+        owl:sameAs  <http://www.wikidata.org/entity/Q837633> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3401>
+        owl:sameAs  <http://www.wikidata.org/entity/Q784736> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3706>
+        owl:sameAs  <http://www.wikidata.org/entity/Q637425> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3207>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852468> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3301>
+        owl:sameAs  <http://www.wikidata.org/entity/Q753120> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3606>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838301> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3201>
+        owl:sameAs  <http://www.wikidata.org/entity/Q792883> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3506>
+        owl:sameAs  <http://www.wikidata.org/entity/Q383415> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3713>
+        owl:sameAs  <http://www.wikidata.org/entity/Q853969> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3406>
+        owl:sameAs  <http://www.wikidata.org/entity/Q909754> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3805>
+        owl:sameAs  <http://www.wikidata.org/entity/Q375466> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3306>
+        owl:sameAs  <http://www.wikidata.org/entity/Q385016> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3705>
+        owl:sameAs  <http://www.wikidata.org/entity/Q262111> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3206>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852463> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3605>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838308> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3505>
+        owl:sameAs  <http://www.wikidata.org/entity/Q739824> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3712>
+        owl:sameAs  <http://www.wikidata.org/entity/Q570682> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3405>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1080673> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3804>
+        owl:sameAs  <http://www.wikidata.org/entity/Q517427> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3305>
+        owl:sameAs  <http://www.wikidata.org/entity/Q594929> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3704>
+        owl:sameAs  <http://www.wikidata.org/entity/Q582488> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3205>
+        owl:sameAs  <http://www.wikidata.org/entity/Q268426> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3604>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838333> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3811>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838288> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3504>
+        owl:sameAs  <http://www.wikidata.org/entity/Q837639> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3711>
+        owl:sameAs  <http://www.wikidata.org/entity/Q277873> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3212>
+        owl:sameAs  <http://www.wikidata.org/entity/Q338296> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3809>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838335> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3404>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838341> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3611>
+        owl:sameAs  <http://www.wikidata.org/entity/Q856824> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3709>
+        owl:sameAs  <http://www.wikidata.org/entity/Q837629> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3803>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852496> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3304>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852505> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3609>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852438> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3703>
+        owl:sameAs  <http://www.wikidata.org/entity/Q286787> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3204>
+        owl:sameAs  <http://www.wikidata.org/entity/Q847318> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3509>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852518> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3603>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838329> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3810>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852541> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3409>
+        owl:sameAs  <http://www.wikidata.org/entity/Q833856> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3503>
+        owl:sameAs  <http://www.wikidata.org/entity/Q161094> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3710>
+        owl:sameAs  <http://www.wikidata.org/entity/Q856857> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3211>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852457> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3808>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838324> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3403>
+        owl:sameAs  <http://www.wikidata.org/entity/Q757240> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3610>
+        owl:sameAs  <http://www.wikidata.org/entity/Q517734> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3708>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852532> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3209>
+        owl:sameAs  <http://www.wikidata.org/entity/Q645376> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3802>
+        owl:sameAs  <http://www.wikidata.org/entity/Q175781> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3303>
+        owl:sameAs  <http://www.wikidata.org/entity/Q1160841> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3510>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852480> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3608>
+        owl:sameAs  <http://www.wikidata.org/entity/Q663532> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3702>
+        owl:sameAs  <http://www.wikidata.org/entity/Q850531> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3203>
+        owl:sameAs  <http://www.wikidata.org/entity/Q837635> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3410>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838338> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3508>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852511> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3602>
+        owl:sameAs  <http://www.wikidata.org/entity/Q176082> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3408>
+        owl:sameAs  <http://www.wikidata.org/entity/Q643400> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3502>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852525> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3210>
+        owl:sameAs  <http://www.wikidata.org/entity/Q302778> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3807>
+        owl:sameAs  <http://www.wikidata.org/entity/Q918108> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3308>
+        owl:sameAs  <http://www.wikidata.org/entity/Q117503> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3402>
+        owl:sameAs  <http://www.wikidata.org/entity/Q628280> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3707>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852472> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3208>
+        owl:sameAs  <http://www.wikidata.org/entity/Q852491> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3801>
+        owl:sameAs  <http://www.wikidata.org/entity/Q850323> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3302>
+        owl:sameAs  <http://www.wikidata.org/entity/Q605208> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3607>
+        owl:sameAs  <http://www.wikidata.org/entity/Q240419> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3701>
+        owl:sameAs  <http://www.wikidata.org/entity/Q804356> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3202>
+        owl:sameAs  <http://www.wikidata.org/entity/Q480085> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3507>
+        owl:sameAs  <http://www.wikidata.org/entity/Q838292> .
+
+<http://ruian.linked.opendata.cz/resource/okresy/3714>
+        owl:sameAs  <http://www.wikidata.org/entity/Q579648> .
+

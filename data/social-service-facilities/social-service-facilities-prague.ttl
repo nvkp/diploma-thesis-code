@@ -1,0 +1,148 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix sdmx:  <http://purl.org/linked-data/sdmx#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix czso-dataset: <http://data.czso.cz/resource/dataset/social-service-facilities> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix age-onto: <http://linked.opendata.cz/ontology/age/> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-subject: <http://purl.org/linked-data/sdmx/2009/subject#> .
+@prefix sdmx-metadata: <http://purl.org/linked-data/sdmx/2009/metadata#> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix cssz-measure: <https://data.cssz.cz/ontology/measure/> .
+@prefix eugeo: <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix czso-def: <http://data.czso.cz/ontology/social-service-facilities> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix czso:  <http://data.czso.cz/ontology/> .
+@prefix cssz-dimension: <https://data.cssz.cz/ontology/dimension/> .
+
+<http://data.czso.cz/resource/observation/social-service-facilities/CZ0100/2010-12-31>
+        a                               qb:Observation ;
+        czso:pocetAzylovychDomu         23.0 ;
+        czso:pocetBytovychJednotekVDomechSPecovatelskouSluzbou
+                2201.0 ;
+        czso:pocetDomovuProDuchodce     25.0 ;
+        czso:pocetDomovuProOsobySeZdravotnimPostizenim
+                6.0 ;
+        czso:pocetDomuSPecovatelskouSluzbou
+                50.0 ;
+        czso:pocetMistVAzylovychDomech  774.0 ;
+        czso:pocetMistVDomovechProDuchodce
+                2531.0 ;
+        czso:pocetMistVDomovechProOsobySeZdravotnimPostizenim
+                509.0 ;
+        czso:pocetMistVSocialnichZarizenich
+                5569.0 ;
+        czso:pocetSocialnichZarizeni    321.0 ;
+        czso:refArea                    <http://ruian.linked.opendata.cz/resource/okresy/3100> ;
+        czso:refPeriod                  <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        qb:dataSet                      czso-dataset: .
+
+<http://data.czso.cz/resource/observation/social-service-facilities/CZ0100/2009-12-31>
+        a                               qb:Observation ;
+        czso:pocetAzylovychDomu         21.0 ;
+        czso:pocetBytovychJednotekVDomechSPecovatelskouSluzbou
+                2208.0 ;
+        czso:pocetDomovuProDuchodce     18.0 ;
+        czso:pocetDomovuProOsobySeZdravotnimPostizenim
+                6.0 ;
+        czso:pocetDomuSPecovatelskouSluzbou
+                50.0 ;
+        czso:pocetMistVAzylovychDomech  793.0 ;
+        czso:pocetMistVDomovechProDuchodce
+                2170.0 ;
+        czso:pocetMistVDomovechProOsobySeZdravotnimPostizenim
+                506.0 ;
+        czso:pocetMistVSocialnichZarizenich
+                5298.0 ;
+        czso:pocetSocialnichZarizeni    304.0 ;
+        czso:refArea                    <http://ruian.linked.opendata.cz/resource/okresy/3100> ;
+        czso:refPeriod                  <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        qb:dataSet                      czso-dataset: .
+
+<http://data.czso.cz/resource/observation/social-service-facilities/CZ0100/2011-12-31>
+        a                               qb:Observation ;
+        czso:pocetAzylovychDomu         23.0 ;
+        czso:pocetDomovuProDuchodce     25.0 ;
+        czso:pocetDomovuProOsobySeZdravotnimPostizenim
+                6.0 ;
+        czso:pocetMistVAzylovychDomech  793.0 ;
+        czso:pocetMistVDomovechProDuchodce
+                2420.0 ;
+        czso:pocetMistVDomovechProOsobySeZdravotnimPostizenim
+                504.0 ;
+        czso:pocetMistVSocialnichZarizenich
+                5781.0 ;
+        czso:pocetSocialnichZarizeni    304.0 ;
+        czso:refArea                    <http://ruian.linked.opendata.cz/resource/okresy/3100> ;
+        czso:refPeriod                  <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        qb:dataSet                      czso-dataset: .
+
+<http://data.czso.cz/resource/observation/social-service-facilities/CZ0100/2012-12-31>
+        a                               qb:Observation ;
+        czso:pocetAzylovychDomu         25.0 ;
+        czso:pocetDomovuProDuchodce     24.0 ;
+        czso:pocetDomovuProOsobySeZdravotnimPostizenim
+                6.0 ;
+        czso:pocetMistVAzylovychDomech  839.0 ;
+        czso:pocetMistVDomovechProDuchodce
+                2393.0 ;
+        czso:pocetMistVDomovechProOsobySeZdravotnimPostizenim
+                494.0 ;
+        czso:pocetMistVSocialnichZarizenich
+                5267.0 ;
+        czso:pocetSocialnichZarizeni    307.0 ;
+        czso:refArea                    <http://ruian.linked.opendata.cz/resource/okresy/3100> ;
+        czso:refPeriod                  <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        qb:dataSet                      czso-dataset: .
+
+<http://data.czso.cz/resource/observation/social-service-facilities/CZ0100/2013-12-31>
+        a                               qb:Observation ;
+        czso:pocetAzylovychDomu         26.0 ;
+        czso:pocetDomovuProDuchodce     25.0 ;
+        czso:pocetDomovuProOsobySeZdravotnimPostizenim
+                7.0 ;
+        czso:pocetMistVAzylovychDomech  892.0 ;
+        czso:pocetMistVDomovechProDuchodce
+                2439.0 ;
+        czso:pocetMistVDomovechProOsobySeZdravotnimPostizenim
+                519.0 ;
+        czso:pocetMistVSocialnichZarizenich
+                5558.0 ;
+        czso:pocetSocialnichZarizeni    315.0 ;
+        czso:refArea                    <http://ruian.linked.opendata.cz/resource/okresy/3100> ;
+        czso:refPeriod                  <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        qb:dataSet                      czso-dataset: .
+
+<http://data.czso.cz/resource/observation/social-service-facilities/CZ0100/2008-12-31>
+        a                               qb:Observation ;
+        czso:pocetAzylovychDomu         24.0 ;
+        czso:pocetBytovychJednotekVDomechSPecovatelskouSluzbou
+                2016.0 ;
+        czso:pocetDomovuProDuchodce     19.0 ;
+        czso:pocetDomovuProOsobySeZdravotnimPostizenim
+                7.0 ;
+        czso:pocetDomuSPecovatelskouSluzbou
+                50.0 ;
+        czso:pocetMistVAzylovychDomech  802.0 ;
+        czso:pocetMistVDomovechProDuchodce
+                2177.0 ;
+        czso:pocetMistVDomovechProOsobySeZdravotnimPostizenim
+                535.0 ;
+        czso:pocetMistVSocialnichZarizenich
+                5408.0 ;
+        czso:pocetSocialnichZarizeni    303.0 ;
+        czso:refArea                    <http://ruian.linked.opendata.cz/resource/okresy/3100> ;
+        czso:refPeriod                  <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        qb:dataSet                      czso-dataset: .

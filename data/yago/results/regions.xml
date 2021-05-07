@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='region'/>
+	</head>
+	<results>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Plzeň_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Prague</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Hradec_Králové_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Moravian-Silesian_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/South_Bohemian_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Liberec_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Vysočina_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Central_Bohemian_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Olomouc_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Pardubice_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/South_Moravian_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Ústí_nad_Labem_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Karlovy_Vary_Region</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='region'>
+				<uri>http://yago-knowledge.org/resource/Zlín_Region</uri>
+			</binding>
+		</result>
+	</results>
+</sparql>

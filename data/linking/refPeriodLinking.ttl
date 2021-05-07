@@ -1,0 +1,128 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2008-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2014-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2014-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2011-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2019-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2019-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2014-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2014-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2012-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2017-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2017-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2019-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2019-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2015-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2018-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2013-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2008-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2020>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2020-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2020-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2020-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2009-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2018-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2018-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2012-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2012-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2010-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2015-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2015-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2013-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2018-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2018-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2016-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2017-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2017-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2011-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2009-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2009-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2007-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2007-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2020-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2020-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2016-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2016-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2010-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2010-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2013-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2011-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2008-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2016-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2016-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2019-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2014-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014-12-31> .
+
+<http://reference.data.gov.uk/id/gregorian-day/2017-12-31>
+        owl:sameAs  <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2015-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2015-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2007-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2007-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2020-12-31>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2020-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2020-12-31> .
+
+<https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2007>
+        owl:sameAs  <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2007-12-31> , <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2007-12-31> .
+

@@ -1,0 +1,9 @@
+query=PREFIX yago: <http://yago-knowledge.org/resource/>
+PREFIX schema: <http://schema.org/>
+
+describe ?hop2 where {
+?region a yago:Regions_of_the_Czech_Republic; schema:containsPlace ?district .
+?district a yago:Districts_of_the_Czech_Republic .
+?hop1 ?p1 ?district .
+?hop2 ?p2 ?hop1 .
+}

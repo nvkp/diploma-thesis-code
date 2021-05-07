@@ -1,0 +1,90 @@
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix cssz-measure: <https://data.cssz.cz/ontology/measure/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix czso:  <http://data.czso.cz/ontology/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix cssz-dimension: <https://data.cssz.cz/ontology/dimension/> .
+
+<http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-2011>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                23868368.592979999259 .
+
+<http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-2016>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                23652329.4091799999592 .
+
+<http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-2014>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                23749257.6704299999404 .
+
+<http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-2019>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                25526496.3709999998104 .
+
+<http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-2012>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                23906203.6218400006182 .
+
+<http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-2017>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                23903372.3319900003263 .
+
+<http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-2010>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                23281166.3492100010627 .
+
+<http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-2015>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                24076172.5385700017212 .
+
+<http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-2013>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                23902944.3396499995144 .
+
+<http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-2018>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                24495285.0615499983539 .

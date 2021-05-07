@@ -1,0 +1,6 @@
+(?a qb:dataSet <jaurDistrictsBySex>) ^ (?b <http://schema.org/containedInPlace> yago:Moravian-Silesian_Region) ^ (?a czso:refArea ?b) -> (?a czso:dosazitelniNeumisteniUchazeciOZamestnani [ 4028.5 ; 13697.0 ]) | support: 81, headCoverage: 0.033707865168539325, confidence: 0.75, headSize: 2403, bodySize: 108
+(?a qb:dataSet <jaurDistrictsBySex>) ^ (?b <http://schema.org/containedInPlace> yago:Ústí_nad_Labem_Region) ^ (?a czso:refArea ?b) -> (?a czso:podilNezamestnanych [ 8.785 ; 16.49 ]) | support: 91, headCoverage: 0.03786933000416146, confidence: 0.7222222222222222, headSize: 2403, bodySize: 126
+
+# @prefix yago : http://yago-knowledge.org/resource/
+# @prefix czso : http://data.czso.cz/ontology/
+# @prefix qb : http://purl.org/linked-data/cube#

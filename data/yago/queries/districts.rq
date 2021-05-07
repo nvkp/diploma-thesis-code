@@ -1,0 +1,9 @@
+query=PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX yago: <http://yago-knowledge.org/resource/>
+PREFIX schema: <http://schema.org/>
+
+select distinct ?district where {
+?region a yago:Regions_of_the_Czech_Republic; schema:containsPlace ?district.
+?district a yago:Districts_of_the_Czech_Republic .
+}

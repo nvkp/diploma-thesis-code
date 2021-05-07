@@ -1,0 +1,17 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#> .
+
+<https://data.cssz.cz/ontology/sdmx/code/sex-M>
+        owl:sameAs  sdmx-code:sex-M .
+
+<https://data.cssz.cz/ontology/sdmx/code/sex-F>
+        owl:sameAs  sdmx-code:sex-F .
+
+<https://data.cssz.cz/ontology/sdmx/code/sex-U>
+        owl:sameAs  sdmx-code:sex-U .
+
+<https://data.cssz.cz/ontology/sdmx/code/sex-N>
+        owl:sameAs  sdmx-code:sex-N .
+
+<https://data.cssz.cz/ontology/sdmx/code/sex-T>
+        owl:sameAs  sdmx-code:sex-T .

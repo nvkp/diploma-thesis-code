@@ -1,0 +1,89 @@
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix cssz-measure: <https://data.cssz.cz/ontology/measure/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix czso:  <http://data.czso.cz/ontology/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix cssz-dimension: <https://data.cssz.cz/ontology/dimension/> .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2014/pk_widows_s1>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                21209588.920859999955 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_widows_s1>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                21211092.044730000198 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2013/pk_widows_s1>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                21397650.65991999954 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_widows_s1>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                21030204.872519999743 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2012/pk_widows_s1>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                21463121.659320000559 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2011/pk_widows_s1>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                21483291.539209999144 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2010/pk_widows_s1>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                21017740.537530001253 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_widows_s1>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                22577841.918999999762 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_widows_s1>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                21700299.487629998475 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2015/pk_widows_s1>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                21505534.704890001565 .

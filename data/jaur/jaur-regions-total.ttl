@@ -1,0 +1,1545 @@
+@prefix sdmx-subject: <http://purl.org/linked-data/sdmx/2009/subject#> .
+@prefix sdmx-metadata: <http://purl.org/linked-data/sdmx/2009/metadata#> .
+@prefix def:   <http://data.czso.cz/ontology/job-applicants-and-unemployment-rate> .
+@prefix cssz-measure: <https://data.cssz.cz/ontology/measure/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix eugeo: <http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix sdmx:  <http://purl.org/linked-data/sdmx#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix eurovoc: <http://eurovoc.europa.eu/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix czso:  <http://data.czso.cz/ontology/> .
+@prefix dataset: <http://data.czso.cz/resource/dataset/job-applicants-and-unemployment-rate> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix cssz-dimension: <https://data.cssz.cz/ontology/dimension/> .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ042/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                59853.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                61589.0 ;
+        czso:pocetVolnychMist     1786.0 ;
+        czso:podilNezamestnanych  10.46 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ072/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                33149.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                33978.0 ;
+        czso:pocetVolnychMist     2217.0 ;
+        czso:podilNezamestnanych  8.34 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ064/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                65163.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                65944.0 ;
+        czso:pocetVolnychMist     3040.0 ;
+        czso:podilNezamestnanych  8.05 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ020/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                29930.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                31220.0 ;
+        czso:pocetVolnychMist     11399.0 ;
+        czso:podilNezamestnanych  3.43 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ051/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                15709.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                16605.0 ;
+        czso:pocetVolnychMist     2279.0 ;
+        czso:podilNezamestnanych  5.03 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ064/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                70624.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                71970.0 ;
+        czso:pocetVolnychMist     2262.0 ;
+        czso:podilNezamestnanych  8.94 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ051/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                23330.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                24185.0 ;
+        czso:pocetVolnychMist     1831.0 ;
+        czso:podilNezamestnanych  7.75 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ053/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                14440.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                15417.0 ;
+        czso:pocetVolnychMist     9541.0 ;
+        czso:podilNezamestnanych  4.01 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ052/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                14078.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                14728.0 ;
+        czso:pocetVolnychMist     4052.0 ;
+        czso:podilNezamestnanych  3.62 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ053/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                23072.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                23631.0 ;
+        czso:pocetVolnychMist     2609.0 ;
+        czso:podilNezamestnanych  6.5 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ032/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                16929.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                17959.0 ;
+        czso:pocetVolnychMist     7214.0 ;
+        czso:podilNezamestnanych  4.3 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ032/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                26561.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                27267.0 ;
+        czso:pocetVolnychMist     2161.0 ;
+        czso:podilNezamestnanych  6.64 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ063/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                29011.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                29410.0 ;
+        czso:pocetVolnychMist     916.0 ;
+        czso:podilNezamestnanych  8.1 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ041/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                15499.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                16221.0 ;
+        czso:pocetVolnychMist     2354.0 ;
+        czso:podilNezamestnanych  7.07 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ080/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                79257.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                82776.0 ;
+        czso:pocetVolnychMist     3191.0 ;
+        czso:podilNezamestnanych  9.04 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ072/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                23505.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                25601.0 ;
+        czso:pocetVolnychMist     5111.0 ;
+        czso:podilNezamestnanych  5.63 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ071/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                21944.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                23495.0 ;
+        czso:pocetVolnychMist     5224.0 ;
+        czso:podilNezamestnanych  4.81 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ072/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                32596.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                33386.0 ;
+        czso:pocetVolnychMist     1245.0 ;
+        czso:podilNezamestnanych  7.91 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ064/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                52056.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                55230.0 ;
+        czso:pocetVolnychMist     7990.0 ;
+        czso:podilNezamestnanych  6.49 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ020/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                38499.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                40751.0 ;
+        czso:pocetVolnychMist     7064.0 ;
+        czso:podilNezamestnanych  4.69 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ051/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                17634.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                18923.0 ;
+        czso:pocetVolnychMist     2425.0 ;
+        czso:podilNezamestnanych  5.74 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ031/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                26595.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                27530.0 ;
+        czso:pocetVolnychMist     1516.0 ;
+        czso:podilNezamestnanych  5.92 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ032/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                23210.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                23724.0 ;
+        czso:pocetVolnychMist     2417.0 ;
+        czso:podilNezamestnanych  5.94 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ031/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                30565.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                31551.0 ;
+        czso:pocetVolnychMist     2338.0 ;
+        czso:podilNezamestnanych  7.1 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ041/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                17907.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                18411.0 ;
+        czso:pocetVolnychMist     1027.0 ;
+        czso:podilNezamestnanych  8.5 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ071/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                40026.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                41092.0 ;
+        czso:pocetVolnychMist     821.0 ;
+        czso:podilNezamestnanych  8.86 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ071/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                42130.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                43364.0 ;
+        czso:pocetVolnychMist     1103.0 ;
+        czso:podilNezamestnanych  9.79 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ020/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                27490.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                29273.0 ;
+        czso:pocetVolnychMist     19691.0 ;
+        czso:podilNezamestnanych  3.22 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ063/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                27828.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                28566.0 ;
+        czso:pocetVolnychMist     762.0 ;
+        czso:podilNezamestnanych  7.72 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ020/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                49558.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                50594.0 ;
+        czso:pocetVolnychMist     4054.0 ;
+        czso:podilNezamestnanych  5.62 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ064/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                64975.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                66435.0 ;
+        czso:pocetVolnychMist     2289.0 ;
+        czso:podilNezamestnanych  8.15 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ080/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                78554.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                80581.0 ;
+        czso:pocetVolnychMist     2756.0 ;
+        czso:podilNezamestnanych  8.88 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ042/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                43801.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                45657.0 ;
+        czso:pocetVolnychMist     4485.0 ;
+        czso:podilNezamestnanych  7.32 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ080/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                87626.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                89976.0 ;
+        czso:pocetVolnychMist     2280.0 ;
+        czso:podilNezamestnanych  10.47 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ072/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                33136.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                33836.0 ;
+        czso:pocetVolnychMist     1252.0 ;
+        czso:podilNezamestnanych  7.98 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ052/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                13681.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                14499.0 ;
+        czso:pocetVolnychMist     5329.0 ;
+        czso:podilNezamestnanych  3.52 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ053/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                26815.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                27359.0 ;
+        czso:pocetVolnychMist     2165.0 ;
+        czso:podilNezamestnanych  7.45 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ052/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                21462.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                22185.0 ;
+        czso:pocetVolnychMist     1624.0 ;
+        czso:podilNezamestnanych  5.68 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ031/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                18803.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                20426.0 ;
+        czso:pocetVolnychMist     5222.0 ;
+        czso:podilNezamestnanych  4.19 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ031/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                28548.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                29545.0 ;
+        czso:pocetVolnychMist     1850.0 ;
+        czso:podilNezamestnanych  6.39 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ041/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                17347.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                18017.0 ;
+        czso:pocetVolnychMist     1206.0 ;
+        czso:podilNezamestnanych  7.92 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ071/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                29299.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                31187.0 ;
+        czso:pocetVolnychMist     4537.0 ;
+        czso:podilNezamestnanych  6.44 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ071/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                40732.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                42117.0 ;
+        czso:pocetVolnychMist     1210.0 ;
+        czso:podilNezamestnanych  9.08 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ063/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                18824.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                20060.0 ;
+        czso:pocetVolnychMist     4071.0 ;
+        czso:podilNezamestnanych  5.23 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ052/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                26966.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                27678.0 ;
+        czso:pocetVolnychMist     1299.0 ;
+        czso:podilNezamestnanych  7.31 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ080/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                80378.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                85422.0 ;
+        czso:pocetVolnychMist     7896.0 ;
+        czso:podilNezamestnanych  8.98 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ042/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                66773.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                70532.0 ;
+        czso:pocetVolnychMist     2710.0 ;
+        czso:podilNezamestnanych  11.3 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ031/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                27763.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                28767.0 ;
+        czso:pocetVolnychMist     2450.0 ;
+        czso:podilNezamestnanych  6.37 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ053/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                26446.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                26817.0 ;
+        czso:pocetVolnychMist     1813.0 ;
+        czso:podilNezamestnanych  7.32 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ053/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                25955.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                26371.0 ;
+        czso:pocetVolnychMist     2393.0 ;
+        czso:podilNezamestnanych  7.45 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ032/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                16087.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                16757.0 ;
+        czso:pocetVolnychMist     7562.0 ;
+        czso:podilNezamestnanych  3.98 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ063/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                26689.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                26963.0 ;
+        czso:pocetVolnychMist     664.0 ;
+        czso:podilNezamestnanych  7.63 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ041/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                12900.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                13437.0 ;
+        czso:pocetVolnychMist     2087.0 ;
+        czso:podilNezamestnanych  5.82 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ042/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                46986.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                49894.0 ;
+        czso:pocetVolnychMist     6462.0 ;
+        czso:podilNezamestnanych  7.88 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ080/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                78178.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                81099.0 ;
+        czso:pocetVolnychMist     3335.0 ;
+        czso:podilNezamestnanych  9.17 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ042/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                56550.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                58087.0 ;
+        czso:pocetVolnychMist     1974.0 ;
+        czso:podilNezamestnanych  9.79 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ072/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                18922.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                20048.0 ;
+        czso:pocetVolnychMist     4272.0 ;
+        czso:podilNezamestnanych  4.53 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ072/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                31567.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                32100.0 ;
+        czso:pocetVolnychMist     1269.0 ;
+        czso:podilNezamestnanych  7.82 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ064/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                41157.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                43063.0 ;
+        czso:pocetVolnychMist     8253.0 ;
+        czso:podilNezamestnanych  5.08 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ051/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                13522.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                14566.0 ;
+        czso:pocetVolnychMist     4612.0 ;
+        czso:podilNezamestnanych  4.35 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ052/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                24048.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                24678.0 ;
+        czso:pocetVolnychMist     1365.0 ;
+        czso:podilNezamestnanych  6.28 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ051/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                22323.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                23286.0 ;
+        czso:pocetVolnychMist     1780.0 ;
+        czso:podilNezamestnanych  7.34 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ053/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                18381.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                19369.0 ;
+        czso:pocetVolnychMist     7296.0 ;
+        czso:podilNezamestnanych  5.15 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ020/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                48328.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                49144.0 ;
+        czso:pocetVolnychMist     3296.0 ;
+        czso:podilNezamestnanych  5.51 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ032/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                19315.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                20500.0 ;
+        czso:pocetVolnychMist     3940.0 ;
+        czso:podilNezamestnanych  4.94 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ063/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                21587.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                22814.0 ;
+        czso:pocetVolnychMist     1913.0 ;
+        czso:podilNezamestnanych  6.02 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ020/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                60772.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                61681.0 ;
+        czso:pocetVolnychMist     4040.0 ;
+        czso:podilNezamestnanych  6.9 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ051/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                25097.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                25909.0 ;
+        czso:pocetVolnychMist     2549.0 ;
+        czso:podilNezamestnanych  8.46 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ072/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                27361.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                29505.0 ;
+        czso:pocetVolnychMist     2067.0 ;
+        czso:podilNezamestnanych  6.55 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ064/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                60177.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                63692.0 ;
+        czso:pocetVolnychMist     5834.0 ;
+        czso:podilNezamestnanych  7.52 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ052/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                22958.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                23373.0 ;
+        czso:pocetVolnychMist     1333.0 ;
+        czso:podilNezamestnanych  5.96 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ053/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                24766.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                25264.0 ;
+        czso:pocetVolnychMist     1857.0 ;
+        czso:podilNezamestnanych  7.03 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ031/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                16471.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                17505.0 ;
+        czso:pocetVolnychMist     4188.0 ;
+        czso:podilNezamestnanych  3.65 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ032/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                22669.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                23308.0 ;
+        czso:pocetVolnychMist     2603.0 ;
+        czso:podilNezamestnanych  5.75 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ041/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                12357.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                12975.0 ;
+        czso:pocetVolnychMist     3167.0 ;
+        czso:podilNezamestnanych  5.58 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ042/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                60502.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                61947.0 ;
+        czso:pocetVolnychMist     2238.0 ;
+        czso:podilNezamestnanych  10.23 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ071/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                22218.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                23470.0 ;
+        czso:pocetVolnychMist     2747.0 ;
+        czso:podilNezamestnanych  4.89 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ041/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                16956.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                17447.0 ;
+        czso:pocetVolnychMist     1088.0 ;
+        czso:podilNezamestnanych  7.98 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ071/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                39070.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                40342.0 ;
+        czso:pocetVolnychMist     809.0 ;
+        czso:podilNezamestnanych  8.93 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ072/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                28445.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                29418.0 ;
+        czso:pocetVolnychMist     1590.0 ;
+        czso:podilNezamestnanych  7.0 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ020/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                33471.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                35498.0 ;
+        czso:pocetVolnychMist     12478.0 ;
+        czso:podilNezamestnanych  4.01 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ064/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                41658.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                44239.0 ;
+        czso:pocetVolnychMist     13725.0 ;
+        czso:podilNezamestnanych  5.15 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ063/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                17082.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                17874.0 ;
+        czso:pocetVolnychMist     2414.0 ;
+        czso:podilNezamestnanych  4.72 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ020/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                53764.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                54716.0 ;
+        czso:pocetVolnychMist     3599.0 ;
+        czso:podilNezamestnanych  6.09 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ064/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                61192.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                62722.0 ;
+        czso:pocetVolnychMist     2775.0 ;
+        czso:podilNezamestnanych  7.61 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ051/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                24913.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                25653.0 ;
+        czso:pocetVolnychMist     1417.0 ;
+        czso:podilNezamestnanych  8.06 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ080/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                54193.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                57455.0 ;
+        czso:pocetVolnychMist     8795.0 ;
+        czso:podilNezamestnanych  6.08 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ052/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                18305.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                19298.0 ;
+        czso:pocetVolnychMist     4413.0 ;
+        czso:podilNezamestnanych  4.73 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ041/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                19231.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                19600.0 ;
+        czso:pocetVolnychMist     1275.0 ;
+        czso:podilNezamestnanych  9.33 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ031/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                21941.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                23632.0 ;
+        czso:pocetVolnychMist     2636.0 ;
+        czso:podilNezamestnanych  4.92 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ020/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                53605.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                54451.0 ;
+        czso:pocetVolnychMist     4044.0 ;
+        czso:podilNezamestnanych  6.13 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ042/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                58732.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                59976.0 ;
+        czso:pocetVolnychMist     1721.0 ;
+        czso:podilNezamestnanych  9.87 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ042/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                64396.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                65820.0 ;
+        czso:pocetVolnychMist     2345.0 ;
+        czso:podilNezamestnanych  11.47 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ071/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                34209.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                36180.0 ;
+        czso:pocetVolnychMist     2849.0 ;
+        czso:podilNezamestnanych  7.53 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ051/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                25787.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                26273.0 ;
+        czso:pocetVolnychMist     1201.0 ;
+        czso:podilNezamestnanych  8.29 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ052/2012-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                24519.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                25210.0 ;
+        czso:pocetVolnychMist     1121.0 ;
+        czso:podilNezamestnanych  6.55 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ080/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                91177.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                96528.0 ;
+        czso:pocetVolnychMist     3306.0 ;
+        czso:podilNezamestnanych  10.18 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ031/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                15078.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                16452.0 ;
+        czso:pocetVolnychMist     6983.0 ;
+        czso:podilNezamestnanych  3.35 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ031/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                25511.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                26450.0 ;
+        czso:pocetVolnychMist     2073.0 ;
+        czso:podilNezamestnanych  5.81 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ053/2008-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                16334.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                16998.0 ;
+        czso:pocetVolnychMist     3654.0 ;
+        czso:podilNezamestnanych  4.5 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2008-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ041/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                19515.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                19922.0 ;
+        czso:pocetVolnychMist     748.0 ;
+        czso:podilNezamestnanych  8.94 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ032/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                13570.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                14516.0 ;
+        czso:pocetVolnychMist     14443.0 ;
+        czso:podilNezamestnanych  3.41 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ071/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                36748.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                38119.0 ;
+        czso:pocetVolnychMist     1065.0 ;
+        czso:podilNezamestnanych  8.33 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ063/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                15233.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                16202.0 ;
+        czso:pocetVolnychMist     5764.0 ;
+        czso:podilNezamestnanych  4.21 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ064/2010-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                68099.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                69342.0 ;
+        czso:pocetVolnychMist     2955.0 ;
+        czso:podilNezamestnanych  8.45 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ063/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                25187.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                25605.0 ;
+        czso:pocetVolnychMist     921.0 ;
+        czso:podilNezamestnanych  7.16 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ080/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                61403.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                65816.0 ;
+        czso:pocetVolnychMist     10696.0 ;
+        czso:podilNezamestnanych  6.87 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ042/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                60245.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                63652.0 ;
+        czso:pocetVolnychMist     5003.0 ;
+        czso:podilNezamestnanych  10.2 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ080/2011-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                71266.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                75019.0 ;
+        czso:pocetVolnychMist     4163.0 ;
+        czso:podilNezamestnanych  8.31 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ072/2007-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                18521.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                20171.0 ;
+        czso:pocetVolnychMist     6683.0 ;
+        czso:podilNezamestnanych  4.43 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2007-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ052/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                20840.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                21989.0 ;
+        czso:pocetVolnychMist     2731.0 ;
+        czso:podilNezamestnanych  5.41 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ051/2006-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                15988.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                17258.0 ;
+        czso:pocetVolnychMist     3648.0 ;
+        czso:podilNezamestnanych  5.18 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2006-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ032/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                26212.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                26802.0 ;
+        czso:pocetVolnychMist     2078.0 ;
+        czso:podilNezamestnanych  6.5 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ032/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                25008.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                25709.0 ;
+        czso:pocetVolnychMist     2575.0 ;
+        czso:podilNezamestnanych  6.45 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ063/2013-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                27759.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                28304.0 ;
+        czso:pocetVolnychMist     1203.0 ;
+        czso:podilNezamestnanych  8.05 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ041/2009-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                19016.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                19337.0 ;
+        czso:pocetVolnychMist     830.0 ;
+        czso:podilNezamestnanych  8.66 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2009-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .
+
+<http://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ053/2005-12-31/T>
+        a                         qb:Observation ;
+        czso:dosazitelniNeumisteniUchazeciOZamestnani
+                21691.0 ;
+        czso:neumisteniUchazeciOZamestnani
+                22782.0 ;
+        czso:pocetVolnychMist     2364.0 ;
+        czso:podilNezamestnanych  6.1 ;
+        czso:refArea              <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod            <http://reference.data.gov.uk/id/gregorian-day/2005-12-31> ;
+        czso:sex                  sdmx-code:sex-T ;
+        qb:dataSet                dataset: .

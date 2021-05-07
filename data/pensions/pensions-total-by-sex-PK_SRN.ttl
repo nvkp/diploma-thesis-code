@@ -1,0 +1,629 @@
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix cssz-measure: <https://data.cssz.cz/ontology/measure/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix czso:  <http://data.czso.cz/ontology/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix cssz-dimension: <https://data.cssz.cz/ontology/dimension/> .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2010-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                3975.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2015-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2015-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                4232.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2018-12-31/pocet-duchodcu/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2018-12-31> ;
+        cssz-measure:pocet-duchodcu  1923.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2016-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2016-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                4206.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2011-12-31/prumerny-vek/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        cssz-measure:prumerny-vek    73.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2017-12-31/prumerny-vek/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2017-12-31> ;
+        cssz-measure:prumerny-vek    76.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2012-12-31/pocet-duchodcu/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        cssz-measure:pocet-duchodcu  2256.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2017-12-31/pocet-duchodcu/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2017-12-31> ;
+        cssz-measure:pocet-duchodcu  1970.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2019-12-31/prumerny-vek/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2019-12-31> ;
+        cssz-measure:prumerny-vek    75.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2011-12-31/pocet-duchodcu/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        cssz-measure:pocet-duchodcu  2287.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2016-12-31/pocet-duchodcu/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2016-12-31> ;
+        cssz-measure:pocet-duchodcu  1551.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2014-12-31/prumerny-vek/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2014-12-31> ;
+        cssz-measure:prumerny-vek    75.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2015-12-31/pocet-duchodcu/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2015-12-31> ;
+        cssz-measure:pocet-duchodcu  1470.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2010-12-31/pocet-duchodcu/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        cssz-measure:pocet-duchodcu  1421.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2016-12-31/prumerny-vek/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2016-12-31> ;
+        cssz-measure:prumerny-vek    76.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2015-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2015-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                3673.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2010-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                3438.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2016-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2016-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                3689.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2011-12-31/prumerny-vek/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        cssz-measure:prumerny-vek    73.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2011-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                4105.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2013-12-31/prumerny-vek/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        cssz-measure:prumerny-vek    75.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2019-12-31/prumerny-vek/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2019-12-31> ;
+        cssz-measure:prumerny-vek    76.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2012-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                4128.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2017-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2017-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                4329.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2016-12-31/pocet-duchodcu/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2016-12-31> ;
+        cssz-measure:pocet-duchodcu  2002.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2018-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2018-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                4552.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2010-12-31/pocet-duchodcu/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        cssz-measure:pocet-duchodcu  2386.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2015-12-31/pocet-duchodcu/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2015-12-31> ;
+        cssz-measure:pocet-duchodcu  2027.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2010-12-31/prumerny-vek/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        cssz-measure:prumerny-vek    73.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2016-12-31/prumerny-vek/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2016-12-31> ;
+        cssz-measure:prumerny-vek    76.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2018-12-31/prumerny-vek/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2018-12-31> ;
+        cssz-measure:prumerny-vek    75.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2014-12-31/pocet-duchodcu/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2014-12-31> ;
+        cssz-measure:pocet-duchodcu  1452.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2019-12-31/pocet-duchodcu/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2019-12-31> ;
+        cssz-measure:pocet-duchodcu  2144.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2011-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                3531.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2013-12-31/pocet-duchodcu/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        cssz-measure:pocet-duchodcu  1449.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2013-12-31/prumerny-vek/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        cssz-measure:prumerny-vek    74.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2015-12-31/prumerny-vek/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2015-12-31> ;
+        cssz-measure:prumerny-vek    76.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2017-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2017-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                3790.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2012-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                3560.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2018-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2018-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                3946.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2010-12-31/prumerny-vek/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        cssz-measure:prumerny-vek    72.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2013-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                4166.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2012-12-31/prumerny-vek/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        cssz-measure:prumerny-vek    74.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2018-12-31/prumerny-vek/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2018-12-31> ;
+        cssz-measure:prumerny-vek    76.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2019-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2019-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                5328.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2014-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2014-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                4169.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2014-12-31/pocet-duchodcu/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2014-12-31> ;
+        cssz-measure:pocet-duchodcu  2102.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2019-12-31/pocet-duchodcu/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2019-12-31> ;
+        cssz-measure:pocet-duchodcu  1903.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2013-12-31/pocet-duchodcu/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        cssz-measure:pocet-duchodcu  2201.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2018-12-31/pocet-duchodcu/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2018-12-31> ;
+        cssz-measure:pocet-duchodcu  1844.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2015-12-31/prumerny-vek/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2015-12-31> ;
+        cssz-measure:prumerny-vek    75.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2017-12-31/prumerny-vek/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2017-12-31> ;
+        cssz-measure:prumerny-vek    76.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2017-12-31/pocet-duchodcu/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2017-12-31> ;
+        cssz-measure:pocet-duchodcu  1665.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2012-12-31/pocet-duchodcu/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        cssz-measure:pocet-duchodcu  1435.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2011-12-31/pocet-duchodcu/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:pocet-duchodcu ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        cssz-measure:pocet-duchodcu  1417.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2013-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2013-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                3605.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2012-12-31/prumerny-vek/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        cssz-measure:prumerny-vek    74.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2014-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2014-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                3597.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2019-12-31/prumerna-vyse-duchodu-v-kc/pk_srn/st.1/f>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerna-vyse-duchodu-v-kc ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-F> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2019-12-31> ;
+        cssz-measure:prumerna-vyse-duchodu-v-kc
+                4621.0 .
+
+<https://data.cssz.cz/resource/observation/duchodci-v-cr-krajich-okresech/2014-12-31/prumerny-vek/pk_srn/st.1/m>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/duchodci-v-cr-krajich-okresech> ;
+        qb:measureType               cssz-measure:prumerny-vek ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_SRN_2010> ;
+        cssz-dimension:pohlavi       <https://data.cssz.cz/ontology/sdmx/code/sex-M> ;
+        cssz-dimension:refArea       <https://data.cssz.cz/resource/ruian/staty/1> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-day/2014-12-31> ;
+        cssz-measure:prumerny-vek    75.0 .

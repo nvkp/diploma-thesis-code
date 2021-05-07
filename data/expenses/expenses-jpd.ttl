@@ -1,0 +1,90 @@
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix cssz-measure: <https://data.cssz.cz/ontology/measure/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix czso:  <http://data.czso.cz/ontology/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix cssz-dimension: <https://data.cssz.cz/ontology/dimension/> .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_jpd>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_JPD> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                903.80200000000002092 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_jpd>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_JPD> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                7797.3999999999996362 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_jpd>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_JPD> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                288.60000000000002274 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_jpd>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_JPD> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                3562496.7752100001089 .
+                
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2010/pk_jpd>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_JPD> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                0.0 .
+
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2011/pk_jpd>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_JPD> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                0.0 .
+                
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2012/pk_jpd>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_JPD> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                0.0 .
+                
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2013/pk_jpd>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_JPD> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                0.0 .
+                
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2014/pk_jpd>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_JPD> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                0.0 .
+                
+<https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2015/pk_jpd>
+        a                            qb:Observation ;
+        qb:dataSet                   <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+        cssz-dimension:druh-duchodu  <https://data.cssz.cz/resource/pension-kind/PK_JPD> ;
+        cssz-dimension:refPeriod     <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015> ;
+        cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc
+                0.0 .
+             
