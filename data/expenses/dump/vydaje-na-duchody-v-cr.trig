@@ -1,0 +1,785 @@
+
+<https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> {
+  <https://data.cssz.cz/ontology/dimension/druh-duchodu> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+      <http://purl.org/linked-data/cube#DimensionProperty> .
+  
+  <https://data.cssz.cz/ontology/dimension/refPeriod> a <http://purl.org/linked-data/cube#DimensionProperty>,
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+  
+  <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+    a <http://purl.org/linked-data/cube#MeasureProperty>, <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+  
+  <https://data.cssz.cz/resource/data-structure-definition/vydaje-na-duchody-v-cr> a
+      <http://purl.org/linked-data/cube#DataStructureDefinition>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Definice struktury datové kostky s celkovými výdaji na důchody v České republice v členění dle druhů důchodu."@cs,
+      "The definition of the structure of the data cube of the total amount of money spent on pensions the Czech Republic classified by pension kinds."@en;
+    <http://purl.org/linked-data/cube#component> _:genid-886832973b93428dae1b6028f7da2ba0-b20532,
+      _:genid-886832973b93428dae1b6028f7da2ba0-b20530, _:genid-886832973b93428dae1b6028f7da2ba0-b20531,
+      _:genid-886832973b93428dae1b6028f7da2ba0-b20529 .
+  
+  <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> a <http://purl.org/linked-data/cube#DataSet>;
+    <http://purl.org/dc/terms/title> "Výdaje na důchody"@cs, "Costs on pensions in the Czech Republic"@en;
+    <http://purl.org/dc/terms/description> "Výdaje na důchody podle roku a druhu důchodu"@cs,
+      "Costs on pensions in the Czech Republic by year and kind of pension"@en;
+    <http://purl.org/dc/terms/publisher> <http://www.cssz.cz>;
+    <http://purl.org/dc/terms/subject> <https://data.cssz.cz/ontology/sdmx/subject/1.6>,
+      <http://dbpedia.org/resource/Czech_republic>;
+    <http://purl.org/linked-data/cube#structure> <https://data.cssz.cz/resource/data-structure-definition/vydaje-na-duchody-v-cr> .
+  
+  _:genid-886832973b93428dae1b6028f7da2ba0-b20529 <http://www.w3.org/2000/01/rdf-schema#label>
+      "The dimension representing a year in which the spendings on pensions were measured."@en,
+      "Dimenze reprezentující rok, za který výdaje uvedeny."@cs;
+    <http://purl.org/linked-data/cube#dimension> <https://data.cssz.cz/ontology/dimension/refPeriod>;
+    <http://purl.org/linked-data/cube#order> 1 .
+  
+  _:genid-886832973b93428dae1b6028f7da2ba0-b20530 <http://www.w3.org/2000/01/rdf-schema#label>
+      "Dimenze reprezentující druh důchodu, pro který jsou výděje na důchody uvedeny."@cs,
+      "The dimension representing a kind of pension for which the spendings on pensions was measured."@en;
+    <http://purl.org/linked-data/cube#dimension> <https://data.cssz.cz/ontology/dimension/druh-duchodu>;
+    <http://purl.org/linked-data/cube#order> 2 .
+  
+  _:genid-886832973b93428dae1b6028f7da2ba0-b20531 <http://www.w3.org/2000/01/rdf-schema#label>
+      "The measure of the spendings on pensions in thousands of CZK. Spendigs are adjusted for cash advances. Spedings in the given year include the cash advance from December of the previous year, however it does not include the cash advandce of December of the current year allocated for the pensions that will be paid in January of the coming year."@en,
+      "Měření výdajů na důchody v tisících Kč. Výdaje jsou opraveny o zálohy. Do výdajů je zahrnuta záloha z prosince předcházejícího roku a není do nich zahrnuta záloha z prosince aktuálního roku určená na výplatu důchodů v roce následujícím."@cs;
+    <http://purl.org/linked-data/cube#measure> <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc> .
+  
+  _:genid-886832973b93428dae1b6028f7da2ba0-b20532 <http://www.w3.org/2000/01/rdf-schema#label>
+      "Jednotka měření"@cs, "Unit of the measure"@en;
+    <http://purl.org/linked-data/cube#attribute> <https://data.cssz.cz/ontology/sdmx/attribute/unitMeasure>;
+    <http://purl.org/linked-data/cube#componentAttachment> <http://purl.org/linked-data/cube#DataSet>;
+    <http://purl.org/linked-data/cube#componentRequired> true .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2011/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3300559.6738999998197;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2011/pk_pensions_t3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      359233999.25968009233;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2011/pk_widowers_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2385077.053770000115;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2011/pk_id> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_ID_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      5115528.4510700004175;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2011/pk_ip> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IP_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      12830882.519099999219;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2011/pk_it> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IT_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      29504406.1840399988;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2011/pk_widows_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      21483291.539209999144;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2012/pk_widows_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      21463121.659320000559;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2014/pk_pensions_t3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      376406470.56322002411;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2014/pk_widowers_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2539668.7495699999854;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2015/pk_id> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_ID_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      5772888.9048699997365;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2015/pk_ip> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IP_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      12027515.821809999645;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2015/pk_it> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IT_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      26504729.560159999877;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2015/pk_widows_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      21505534.704890001565;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_id> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_ID_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      5957838.7880199998617;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_ip> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IP_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      12085547.013580000028;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_it> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IT_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      24961875.105489999056;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_widows_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      21030204.872519999743;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2015/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3266174.9386700000614;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2015/pk_pensions_t3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      386519642.51844990253;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2015/pk_widowers_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2570637.8336800001562;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3177130.5998700000346;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_oldage_s3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      321069742.34266000986;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_widowers_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2622124.5366600002162;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3208640.7741299998015;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_id> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_ID_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      6658172.6253699995577;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_ip> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IP_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      13041199.331960000098;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_it> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IT_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      25038854.681880000979;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_widows_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      21700299.487629998475;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2014/pk_id> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_ID_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      5607752.7112600002438;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2014/pk_ip> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IP_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      12024875.574850000441;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2014/pk_it> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IT_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      26062182.517540000379;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2014/pk_oldage_s3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      305668390.43844002485;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2015/pk_oldage_s3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2015>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      314872160.75436997414;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2008/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3065809.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2008/pk_i> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_I_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      42446289.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2008/pk_ic> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IC_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      14951854.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2008/pk_oldage_s4>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SRN_ST_SD_SR_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      222104621.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2008/pk_pensions_t4>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      305535974.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2008/pk_widowers_s2>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2096409.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2008/pk_widows_s2>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2008>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      20870992.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2009/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3254125.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2009/pk_i> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_I_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      44379732.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2009/pk_widowers_s2>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2249226.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2009/pk_ic> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IC_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      16608816.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2009/pk_oldage_s4>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SRN_ST_SD_SR_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      243636373.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2009/pk_pensions_t4>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      331704683.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2009/pk_widows_s2>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2008>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2009>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      21576411.0;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2012/pk_id> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_ID_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      5250138.4400800000876;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2012/pk_ip> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IP_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      12159054.654680000618;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2012/pk_it> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IT_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      28066818.618569999933;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2012/pk_pensions_t3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      367863587.72595006227;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2012/pk_widowers_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2443081.9625200000592;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2012/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3341108.3536000000313;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2012/pk_oldage_s3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2012>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      295140264.0371800065;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2013/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3358473.7856800002046;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2013/pk_oldage_s3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      300573517.409529984;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2013/pk_pensions_t3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      372334993.24004995823;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2013/pk_widowers_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2505293.6797299999744;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2010/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3213716.6696299999021;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2010/pk_widows_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      21017740.537530001253;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2010/pk_id> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_ID_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      4295297.2840799996629;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2010/pk_ip> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IP_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      12515852.690279999748;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2010/pk_it> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IT_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      30870362.965939998627;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2010/pk_pensions_t3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      340161855.78068006039;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2010/pk_widowers_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2263425.8116799998097;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2011/pk_oldage_s3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2011>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      284614253.8385900259;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2014/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3294011.6507000001147;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2014/pk_widows_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2014>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      21209588.920859999955;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_jpd> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_JPD>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      903.80200000000002092;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_oldage_s3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      351235093.26034998894;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_pensions_t3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      423678149.53724002838;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2018/pk_widowers_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2018>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2794985.5739199998789;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3517093.7289999998175;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_oldage_s3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      382222948.27535998821;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_widowers_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2948654.4520000000484;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2010/pk_oldage_s3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2010>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      265985459.82153999805;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_jpd> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_JPD>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3562496.7752100001089;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2016/pk_pensions_t3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2016>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      394466960.03401017189;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_d> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_D_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      3146834.4863499999046;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_jpd> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_JPD>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      7797.3999999999996362;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_oldage_s3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      333811202.2997699976;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_pensions_t3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      404468050.62474000454;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_widowers_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      2692280.2872600001283;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_id> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_ID_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      6262099.577130000107;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_ip> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IP_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      12453579.839549999684;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_it> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IT_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      24883164.689950000495;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2017/pk_widows_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2017>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      21211092.044730000198;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2013/pk_id> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_ID_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      5457165.9857799997553;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2013/pk_ip> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IP_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      12139547.426000000909;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2013/pk_it> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IT_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      26903344.29340999946;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2013/pk_widows_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2013>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      21397650.65991999954;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_id> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_ID_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      7443600.25800000038;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_ip> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IP_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      14572702.91599999927;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_it> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_IT_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      26025230.583000000566;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_jpd> a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_JPD>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      288.60000000000002274;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_pensions_t3>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_total_in_CZE_and_abroad_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      459308360.73236000538;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+  
+  <https://data.cssz.cz/resource/observation/vydaje-na-duchody-v-cr/2019/pk_widows_s1>
+    a <http://purl.org/linked-data/cube#Observation>;
+    <https://data.cssz.cz/ontology/dimension/druh-duchodu> <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010>;
+    <https://data.cssz.cz/ontology/dimension/refPeriod> <https://data.cssz.cz/resource/reference.data.gov.uk/id/gregorian-year/2019>;
+    <https://data.cssz.cz/ontology/measure/vydaje-na-duchody-opravene-o-zalohy-v-tis-kc>
+      22577841.918999999762;
+    <http://purl.org/linked-data/cube#dataSet> <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> .
+}
