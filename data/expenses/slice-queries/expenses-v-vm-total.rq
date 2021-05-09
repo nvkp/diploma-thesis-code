@@ -1,0 +1,38 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX cssz-dimension: <https://data.cssz.cz/ontology/dimension/>
+PREFIX cssz-measure:  <https://data.cssz.cz/ontology/measure/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX czso: <http://data.czso.cz/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# ./jena/bin/arq --data data/vydaje-na-duchody-v-cr.trig --query queries/expenses-v-vm-total.rq > results/expenses-v-vm-total.ttl
+
+CONSTRUCT {
+    ?observation qb:dataSet <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+                 a qb:Observation ;
+                 cssz-dimension:druh-duchodu <http://kizi.vse.cz/novp19/diploma-thesis/PK_V_VM_total_2010> ;
+                 cssz-dimension:refPeriod ?refPeriod ;
+                 cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc ?sumed
+}
+
+WHERE {
+ 
+ GRAPH <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> {
+    
+    ?o1 qb:dataSet <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+                 cssz-dimension:druh-duchodu <https://data.cssz.cz/resource/pension-kind/PK_VM_total_2010> ;
+                 cssz-dimension:refPeriod ?refPeriod ;
+                 cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc ?m1 .
+    ?o2 qb:dataSet <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+                 cssz-dimension:druh-duchodu <https://data.cssz.cz/resource/pension-kind/PK_V_total_2010> ;
+                 cssz-dimension:refPeriod ?refPeriod ;
+                 cssz-measure:vydaje-na-duchody-opravene-o-zalohy-v-tis-kc ?m2 .
+    BIND((xsd:decimal(?m1)+xsd:decimal(?m2)) as ?sumed)
+    BIND(REPLACE(str(?refPeriod), ".*(\\d{4}).*", "$1") as ?year)
+    BIND(IRI("http://kizi.vse.cz/novp19/diploma-thesis/o/PK_V_VM_total-"+?year) as ?observation)
+ }
+}

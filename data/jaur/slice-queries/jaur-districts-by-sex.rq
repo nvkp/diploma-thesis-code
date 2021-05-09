@@ -1,0 +1,21 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX sdmx-c: <http://purl.org/linked-data/sdmx/2009/code#>
+PREFIX czso: <http://data.czso.cz/ontology/>
+PREFIX czso-rd: <http://data.czso.cz/resource/dataset/>
+PREFIX cssa-rd: <https://data.cssz.cz/resource/dataset/>
+PREFIX cssa-or: <https://data.cssz.cz/ontology/ruian/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+CONSTRUCT { ?observation ?p ?o } 
+WHERE { 
+ GRAPH czso-rd:job-applicants-and-unemployment-rate {
+    ?observation qb:dataSet czso-rd:job-applicants-and-unemployment-rate ;
+                 ?p ?o ;
+                 czso:refArea ?refAreaCZSO .
+    NOT EXISTS {
+        ?observation czso:sex sdmx-c:sex-T .
+    }             
+ }
+ ?refAreaCSSZ owl:sameAs   ?refAreaCZSO.
+ GRAPH cssa-rd:pomocne-ciselniky { ?refAreaCSSZ a cssa-or:Okres }
+}

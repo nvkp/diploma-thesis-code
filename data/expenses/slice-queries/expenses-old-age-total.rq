@@ -1,0 +1,25 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX cssz-dimension: <https://data.cssz.cz/ontology/dimension/>
+PREFIX cssz-measure:  <https://data.cssz.cz/ontology/measure/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX czso: <http://data.czso.cz/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+# ./jena/bin/arq --data data/vydaje-na-duchody-v-cr.trig --query queries/expenses-old-age-total.rq > results/expenses-old-age-total.ttl
+
+CONSTRUCT {
+    ?observation ?p ?o
+} 
+
+WHERE {
+ 
+ GRAPH <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> {
+    
+    ?observation qb:dataSet <https://data.cssz.cz/resource/dataset/vydaje-na-duchody-v-cr> ;
+                 ?p ?o ;
+                 cssz-dimension:druh-duchodu <https://data.cssz.cz/resource/pension-kind/PK_old_age_total_S_SI_SRN_ST_SD_SR_2010> ;
+ }
+}

@@ -145,3 +145,31 @@ describe ?hop2 where {
 ```bash
 curl -X POST -d @queries/describe-districts-hop2.rq -H 'Content-Type: application/x-www-form-urlencoded' -H 'Accept: text/turtle' 'https://yago-knowledge.org/sparql/query' > results/describe-districts-hop2.ttl
 ```
+
+```sparql
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX yago: <http://yago-knowledge.org/resource/>
+PREFIX schema: <http://schema.org/>
+
+construct {
+?region owl:sameAs ?sameRegion .
+?district owl:sameAs ?sameDistrict .
+}
+#select distinct ?region ?district 
+
+where {
+  ?region a yago:Regions_of_the_Czech_Republic .
+  OPTIONAL {
+ 	 ?region schema:containsPlace ?district.
+     ?district a yago:Districts_of_the_Czech_Republic .
+     ?district owl:sameAs ?sameDistrict .
+     FILTER REGEX(str(?sameDistrict), ".*http://www.wikidata.org/entity/.*")
+  } 
+
+  ?region owl:sameAs ?sameRegion .  
+  FILTER REGEX(str(?sameRegion), ".*http://www.wikidata.org/entity/.*")
+}
+```

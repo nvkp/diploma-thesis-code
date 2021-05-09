@@ -1,0 +1,32 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX cssz-dimension: <https://data.cssz.cz/ontology/dimension/>
+PREFIX cssz-measure:  <https://data.cssz.cz/ontology/measure/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX czso: <http://data.czso.cz/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+CONSTRUCT {
+    ?observation ?p ?o
+} 
+
+WHERE {
+ 
+ GRAPH <http://data.czso.cz/resource/dataset/job-applicants-and-unemployment-rate> {
+    
+    ?observation qb:dataSet <http://data.czso.cz/resource/dataset/job-applicants-and-unemployment-rate> ;
+                 ?p ?o ;
+                 czso:sex <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+                 czso:refArea ?refAreaCZSO .
+
+ }
+
+ ?refAreaCSSZ owl:sameAs   ?refAreaCZSO.
+
+ GRAPH <https://data.cssz.cz/resource/dataset/pomocne-ciselniky> {
+     ?refAreaCSSZ a <https://data.cssz.cz/ontology/ruian/Vusc>
+ }
+
+}
