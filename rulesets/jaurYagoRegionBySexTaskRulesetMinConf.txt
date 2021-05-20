@@ -1,0 +1,7 @@
+(?d <http://schema.org/alumniOf> yago:Janáček_Academy_of_Music_and_Performing_Arts) ^ (?d <http://schema.org/alumniOf> ?c) ^ (?b <http://schema.org/subOrganization> ?c) ^ (?a czso:refArea ?b) ^ (?a qb:dataSet <jaur-regions-by-sex>) -> (?a czso:dosazitelniNeumisteniUchazeciOZamestnani <<31649.0__46450.0)_ef10_10/10>) | support: 21, headCoverage: 0.0012484394506866417, pcaConfidence: 0.5833333333333334, headSize: 16821, pcaBodySize: 36
+(?d <http://schema.org/hasOccupation> yago:film_actor_Q10800557) ^ (?d <http://schema.org/alumniOf> ?c) ^ (?b <http://schema.org/subOrganization> ?c) ^ (?a czso:refArea ?b) ^ (?a qb:dataSet <jaur-regions-by-sex>) -> (?a czso:dosazitelniNeumisteniUchazeciOZamestnani <<31649.0__46450.0)_ef10_10/10>) | support: 21, headCoverage: 0.0012484394506866417, pcaConfidence: 0.5833333333333334, headSize: 16821, pcaBodySize: 36
+(?d <http://schema.org/nationality> yago:Slovakia) ^ (?d <http://schema.org/alumniOf> ?c) ^ (?b <http://schema.org/subOrganization> ?c) ^ (?a czso:refArea ?b) ^ (?a qb:dataSet <jaur-regions-by-sex>) -> (?a czso:dosazitelniNeumisteniUchazeciOZamestnani <<31649.0__46450.0)_ef10_10/10>) | support: 21, headCoverage: 0.0012484394506866417, pcaConfidence: 0.5833333333333334, headSize: 16821, pcaBodySize: 36
+
+# @prefix yago : http://yago-knowledge.org/resource/
+# @prefix czso : http://data.czso.cz/ontology/
+# @prefix qb : http://purl.org/linked-data/cube#
