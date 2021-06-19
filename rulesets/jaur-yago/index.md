@@ -20,3 +20,10 @@
 * [region-by-sex](regionBySexClustered.txt)
 * [district-total](districtTotalClustered.txt)
 * [district-by-sex](districtBySexClustered.txt)
+
+## One Rule For Each Cluster
+
+* [region-total](regionTotalTaskRulesetOneForCluster.txt)
+* [region-by-sex](regionBySexTaskRulesetOneForCluster.txt)
+* [district-total](districtTotalTaskRulesetOneForCluster.txt)
+* [district-by-sex](districtBySexTaskRulesetOneForCluster.txt)
