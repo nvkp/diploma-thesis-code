@@ -1,0 +1,17 @@
+PREFIX czso: <http://data.czso.cz/ontology/>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+# ./jena/bin/arq --data data/czso-average-salaries.trig --query queries/salaries-female.rq > results/salaries-female.ttl
+
+CONSTRUCT {
+    ?observation ?p ?o
+}
+
+WHERE {
+
+    GRAPH <http://data.czso.cz/resource/dataset/average-salaries> {
+        ?observation qb:dataSet <http://data.czso.cz/resource/dataset/average-salaries> ;
+                 czso:sex <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+                 ?p ?o .
+    }
+}
