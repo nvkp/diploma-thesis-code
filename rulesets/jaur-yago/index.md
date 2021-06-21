@@ -14,6 +14,13 @@
 * [district-total](districtTotalFiltered.txt)
 * [district-by-sex](districtBySexFiltered.txt)
 
+## Computed PCA Confidence and Lift
+
+* [region-total](regionTotalLiftComputed.txt)
+* [region-by-sex](regionBySexLiftComputed.txt)
+* [district-total](districtTotalLiftComputed.txt)
+* [district-by-sex](districtBySexLiftComputed.txt)
+
 ## Clustered Rule Sets
 
 * [region-total](regionTotalClustered.txt)
