@@ -68,7 +68,7 @@ lines.foreach(line => {
     
     val kindName = line.replaceAll("https://data.cssz.cz/resource/pension-kind/","").replaceAll("_2010","")
     
-    /*val districtTotalQuery = template.format(bothSexes,line,byDistrict)
+    val districtTotalQuery = template.format(bothSexes,line,byDistrict)
     val districtTotalFileName = s"pensions-by-district-total-$kindName"
     val districtTotalPw = new PrintWriter(s"queries/$districtTotalFileName.rq")
     districtTotalPw.print(districtTotalQuery)
@@ -87,7 +87,7 @@ lines.foreach(line => {
     val districtFemalePw = new PrintWriter(s"queries/$districtFemaleFileName.rq")
     districtFemalePw.print(districtFemaleQuery)
     districtFemalePw.close()
-    pw.println(commandTemplate.format(districtFemaleFileName,districtFemaleFileName))*/
+    pw.println(commandTemplate.format(districtFemaleFileName,districtFemaleFileName))
 
 
     val regionTotalQuery = template.format(bothSexes,line,byRegion)
@@ -114,7 +114,7 @@ lines.foreach(line => {
 
 
 
-    /*val totalTotalQuery = template.format(bothSexes,line,stateTotal)
+    val totalTotalQuery = template.format(bothSexes,line,stateTotal)
     val totalTotalFileName = s"pensions-total-total-$kindName"
     val totalTotalPw = new PrintWriter(s"queries/$totalTotalFileName.rq")
     totalTotalPw.print(totalTotalQuery)
@@ -133,7 +133,7 @@ lines.foreach(line => {
     val totalMalePw = new PrintWriter(s"queries/$totalMaleFileName.rq")
     totalMalePw.print(totalMaleQuery)
     totalMalePw.close()
-    pw.println(commandTemplate.format(totalMaleFileName,totalMaleFileName))*/
+    pw.println(commandTemplate.format(totalMaleFileName,totalMaleFileName))
 
 
 
