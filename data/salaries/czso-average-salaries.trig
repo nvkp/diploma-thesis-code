@@ -1,0 +1,1010 @@
+
+<http://data.czso.cz/resource/dataset/average-salaries> {
+	<http://data.czso.cz/resource/observation/average-salaries/CZ053/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25318.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22147.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ010/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 33546.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 26896.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ010/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 37346.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 28759.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ010/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 28984.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 25225.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ010/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 36124.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 28392.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ010/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 41209.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 31063.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ010/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 30022.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 25728.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ010/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 34420.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 27198.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ010/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 38295.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 29008.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ010/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 29780.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 25631.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ020/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25651.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22570.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ020/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 28316.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 24480.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ020/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22046.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19993.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ020/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 27001.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23386.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ020/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 30106.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 25548.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ020/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22638.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20444.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ020/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26097.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22808.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ020/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 29090.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 24886.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ020/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22129.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20322.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ031/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23199.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20594.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ031/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25721.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22433.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ031/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20171.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18223.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ031/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23418.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20479.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ031/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26205.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22302.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ031/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19967.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18080.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ031/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23722.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21190.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ031/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26166.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22830.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ031/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20662.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18885.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ032/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 24036.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21453.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ032/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26349.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23198.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ032/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 21264.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19504.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ032/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25482.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22634.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ032/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 27888.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 24387.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ032/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22141.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20349.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ032/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 24885.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22198.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ032/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 27437.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 24074.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ032/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 21851.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20132.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ041/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 21723.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19229.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ041/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23799.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21182.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ041/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19465.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 17370.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ041/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22498.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20110.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ041/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25021.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22655.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ041/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19705.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 17487.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ041/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22122.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19885.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ041/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 24224.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21843.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ041/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19939.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18200.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ042/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23174.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20581.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ042/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26071.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23014.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ042/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19887.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18154.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ042/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 24874.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21860.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ042/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 27792.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23825.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ042/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 21043.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19216.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ042/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23816.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21334.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ042/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26691.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23563.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ042/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20572.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18802.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ051/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23422.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21084.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ051/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25641.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22783.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ051/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20633.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19260.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ051/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25089.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22289.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ051/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 27832.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 24241.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ051/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 21671.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19946.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ051/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23709.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21473.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ051/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25981.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23169.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ051/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 21038.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19688.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ052/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22837.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20338.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ052/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25099.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22102.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ052/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20194.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18666.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ052/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23950.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21174.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ052/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26753.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23322.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ052/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20555.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19065.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ052/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23687.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21315.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ052/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26121.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22867.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ052/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20844.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19546.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ053/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22978.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20636.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ053/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20081.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18355.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ053/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23537.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20721.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ053/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26401.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22404.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ053/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19852.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18242.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ053/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23230.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21006.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ053/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25367.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22213.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ053/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20501.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18959.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ063/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22918.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20461.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ063/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25635.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22329.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ063/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19274.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 17367.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ063/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23944.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21059.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ063/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 27185.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23353.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ063/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19415.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 17485.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ063/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23298.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20956.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ063/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26291.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22956.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ063/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19331.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 17567.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ064/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 24651.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21238.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ064/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 27370.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23074.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ064/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 21268.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18978.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ064/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26223.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22139.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ064/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 29672.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 24293.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ064/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 21727.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19482.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ064/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25281.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21647.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ064/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 28327.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23493.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ064/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 21643.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19371.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ071/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22825.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20805.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ071/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 24644.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22132.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ071/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20465.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18625.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ071/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23997.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21423.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ071/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26431.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22863.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ071/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20464.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18911.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ071/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23129.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21085.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ071/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25056.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22389.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ071/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20694.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19232.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ072/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22655.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20336.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ072/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25144.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22272.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ072/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19391.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 17362.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ072/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 23219.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20666.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ072/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26068.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22472.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ072/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19393.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 17788.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ072/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 22881.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 20503.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ072/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 25550.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22494.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ072/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 19415.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 17816.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ080/2011-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 24174.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21603.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ080/2011-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 26902.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23826.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ080/2011-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20665.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 18783.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ080/2010-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 24554.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 21883.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ080/2010-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 27407.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 24026.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ080/2010-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 20721.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19083.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ080/2012-12-31/T> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 24479.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 22010.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-T> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ080/2012-12-31/M> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 27216.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 23946.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+	
+	<http://data.czso.cz/resource/observation/average-salaries/CZ080/2012-12-31/F> a <http://purl.org/linked-data/cube#Observation> ;
+		<http://data.czso.cz/ontology/refArea> <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+		<http://data.czso.cz/ontology/refPeriod> <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+		<http://data.czso.cz/ontology/prumernaMzda> 21054.0 ;
+		<http://data.czso.cz/ontology/medianMzdy> 19419.0 ;
+		<http://data.czso.cz/ontology/sex> <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+		<http://purl.org/linked-data/cube#dataSet> <http://data.czso.cz/resource/dataset/average-salaries> .
+}
