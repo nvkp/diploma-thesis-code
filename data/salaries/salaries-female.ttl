@@ -1,380 +1,380 @@
 @prefix qb:    <http://purl.org/linked-data/cube#> .
 @prefix czso:  <http://data.czso.cz/ontology/> .
 
-<http://data.czso.cz/resource/observation/average-salaries/CZ042/2012-12-31/M>
+<http://data.czso.cz/resource/observation/average-salaries/CZ020/2012-12-31/F>
         a                  qb:Observation ;
-        czso:medianMzdy    23563.0 ;
-        czso:prumernaMzda  26691.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/60> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ052/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22102.0 ;
-        czso:prumernaMzda  25099.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/86> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ051/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    23169.0 ;
-        czso:prumernaMzda  25981.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/78> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ031/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22302.0 ;
-        czso:prumernaMzda  26205.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/35> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ071/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22863.0 ;
-        czso:prumernaMzda  26431.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/124> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ063/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    23353.0 ;
-        czso:prumernaMzda  27185.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/108> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ080/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    24026.0 ;
-        czso:prumernaMzda  27407.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/132> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ072/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22472.0 ;
-        czso:prumernaMzda  26068.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/141> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ032/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    24074.0 ;
-        czso:prumernaMzda  27437.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/43> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ042/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    23014.0 ;
-        czso:prumernaMzda  26071.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/60> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ041/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    21843.0 ;
-        czso:prumernaMzda  24224.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/51> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ072/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22494.0 ;
-        czso:prumernaMzda  25550.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/141> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ020/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    24480.0 ;
-        czso:prumernaMzda  28316.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/27> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ064/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    23493.0 ;
-        czso:prumernaMzda  28327.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/116> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ051/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22783.0 ;
-        czso:prumernaMzda  25641.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/78> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ053/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22404.0 ;
-        czso:prumernaMzda  26401.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/94> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ031/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22830.0 ;
-        czso:prumernaMzda  26166.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/35> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ010/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    28759.0 ;
-        czso:prumernaMzda  37346.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/19> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ041/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    21182.0 ;
-        czso:prumernaMzda  23799.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/51> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ071/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22389.0 ;
-        czso:prumernaMzda  25056.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/124> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ020/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    25548.0 ;
-        czso:prumernaMzda  30106.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/27> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ064/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    23074.0 ;
-        czso:prumernaMzda  27370.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/116> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ063/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22956.0 ;
-        czso:prumernaMzda  26291.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/108> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ080/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    23946.0 ;
-        czso:prumernaMzda  27216.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/132> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ052/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    23322.0 ;
-        czso:prumernaMzda  26753.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/86> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ010/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    31063.0 ;
-        czso:prumernaMzda  41209.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/19> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ053/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22213.0 ;
-        czso:prumernaMzda  25367.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/94> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ032/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    23198.0 ;
-        czso:prumernaMzda  26349.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/43> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ063/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22329.0 ;
-        czso:prumernaMzda  25635.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/108> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ080/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    23826.0 ;
-        czso:prumernaMzda  26902.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/132> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ042/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    23825.0 ;
-        czso:prumernaMzda  27792.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/60> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ072/2011-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    22272.0 ;
-        czso:prumernaMzda  25144.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/141> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ051/2010-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    24241.0 ;
-        czso:prumernaMzda  27832.0 ;
-        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/78> ;
-        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
-        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
-
-<http://data.czso.cz/resource/observation/average-salaries/CZ020/2012-12-31/M>
-        a                  qb:Observation ;
-        czso:medianMzdy    24886.0 ;
-        czso:prumernaMzda  29090.0 ;
+        czso:medianMzdy    20322.0 ;
+        czso:prumernaMzda  22129.0 ;
         czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/27> ;
         czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
         qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
 
-<http://data.czso.cz/resource/observation/average-salaries/CZ053/2011-12-31/M>
+<http://data.czso.cz/resource/observation/average-salaries/CZ053/2011-12-31/F>
         a                  qb:Observation ;
-        czso:medianMzdy    22147.0 ;
-        czso:prumernaMzda  25318.0 ;
+        czso:medianMzdy    18355.0 ;
+        czso:prumernaMzda  20081.0 ;
         czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/94> ;
         czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
         qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
 
-<http://data.czso.cz/resource/observation/average-salaries/CZ052/2012-12-31/M>
+<http://data.czso.cz/resource/observation/average-salaries/CZ052/2012-12-31/F>
         a                  qb:Observation ;
-        czso:medianMzdy    22867.0 ;
-        czso:prumernaMzda  26121.0 ;
+        czso:medianMzdy    19546.0 ;
+        czso:prumernaMzda  20844.0 ;
         czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/86> ;
         czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
         qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
 
-<http://data.czso.cz/resource/observation/average-salaries/CZ032/2010-12-31/M>
+<http://data.czso.cz/resource/observation/average-salaries/CZ032/2010-12-31/F>
         a                  qb:Observation ;
-        czso:medianMzdy    24387.0 ;
-        czso:prumernaMzda  27888.0 ;
+        czso:medianMzdy    20349.0 ;
+        czso:prumernaMzda  22141.0 ;
         czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/43> ;
         czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
         qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
 
-<http://data.czso.cz/resource/observation/average-salaries/CZ031/2011-12-31/M>
+<http://data.czso.cz/resource/observation/average-salaries/CZ031/2011-12-31/F>
         a                  qb:Observation ;
-        czso:medianMzdy    22433.0 ;
-        czso:prumernaMzda  25721.0 ;
+        czso:medianMzdy    18223.0 ;
+        czso:prumernaMzda  20171.0 ;
         czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/35> ;
         czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
         qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
 
-<http://data.czso.cz/resource/observation/average-salaries/CZ041/2010-12-31/M>
+<http://data.czso.cz/resource/observation/average-salaries/CZ041/2010-12-31/F>
         a                  qb:Observation ;
-        czso:medianMzdy    22655.0 ;
-        czso:prumernaMzda  25021.0 ;
+        czso:medianMzdy    17487.0 ;
+        czso:prumernaMzda  19705.0 ;
         czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/51> ;
         czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
         qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
 
-<http://data.czso.cz/resource/observation/average-salaries/CZ071/2011-12-31/M>
+<http://data.czso.cz/resource/observation/average-salaries/CZ071/2011-12-31/F>
         a                  qb:Observation ;
-        czso:medianMzdy    22132.0 ;
-        czso:prumernaMzda  24644.0 ;
+        czso:medianMzdy    18625.0 ;
+        czso:prumernaMzda  20465.0 ;
         czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/124> ;
         czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
         qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
 
-<http://data.czso.cz/resource/observation/average-salaries/CZ064/2010-12-31/M>
+<http://data.czso.cz/resource/observation/average-salaries/CZ064/2010-12-31/F>
         a                  qb:Observation ;
-        czso:medianMzdy    24293.0 ;
-        czso:prumernaMzda  29672.0 ;
+        czso:medianMzdy    19482.0 ;
+        czso:prumernaMzda  21727.0 ;
         czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/116> ;
         czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
         qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
 
-<http://data.czso.cz/resource/observation/average-salaries/CZ010/2012-12-31/M>
+<http://data.czso.cz/resource/observation/average-salaries/CZ010/2012-12-31/F>
         a                  qb:Observation ;
-        czso:medianMzdy    29008.0 ;
-        czso:prumernaMzda  38295.0 ;
+        czso:medianMzdy    25631.0 ;
+        czso:prumernaMzda  29780.0 ;
         czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/19> ;
         czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
-        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ042/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18802.0 ;
+        czso:prumernaMzda  20572.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ052/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18666.0 ;
+        czso:prumernaMzda  20194.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ051/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19688.0 ;
+        czso:prumernaMzda  21038.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ031/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18080.0 ;
+        czso:prumernaMzda  19967.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ071/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18911.0 ;
+        czso:prumernaMzda  20464.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ063/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    17485.0 ;
+        czso:prumernaMzda  19415.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ080/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19083.0 ;
+        czso:prumernaMzda  20721.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ072/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    17788.0 ;
+        czso:prumernaMzda  19393.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ032/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    20132.0 ;
+        czso:prumernaMzda  21851.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ042/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18154.0 ;
+        czso:prumernaMzda  19887.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ041/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18200.0 ;
+        czso:prumernaMzda  19939.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ072/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    17816.0 ;
+        czso:prumernaMzda  19415.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ020/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19993.0 ;
+        czso:prumernaMzda  22046.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ064/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19371.0 ;
+        czso:prumernaMzda  21643.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ051/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19260.0 ;
+        czso:prumernaMzda  20633.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ053/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18242.0 ;
+        czso:prumernaMzda  19852.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ031/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18885.0 ;
+        czso:prumernaMzda  20662.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/35> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ010/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    25225.0 ;
+        czso:prumernaMzda  28984.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ041/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    17370.0 ;
+        czso:prumernaMzda  19465.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/51> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ071/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19232.0 ;
+        czso:prumernaMzda  20694.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/124> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ020/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    20444.0 ;
+        czso:prumernaMzda  22638.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/27> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ064/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18978.0 ;
+        czso:prumernaMzda  21268.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/116> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ063/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    17567.0 ;
+        czso:prumernaMzda  19331.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ080/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19419.0 ;
+        czso:prumernaMzda  21054.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ052/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19065.0 ;
+        czso:prumernaMzda  20555.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/86> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ010/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    25728.0 ;
+        czso:prumernaMzda  30022.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/19> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ053/2012-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18959.0 ;
+        czso:prumernaMzda  20501.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/94> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2012-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ032/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19504.0 ;
+        czso:prumernaMzda  21264.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/43> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ063/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    17367.0 ;
+        czso:prumernaMzda  19274.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/108> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ080/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    18783.0 ;
+        czso:prumernaMzda  20665.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/132> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ042/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19216.0 ;
+        czso:prumernaMzda  21043.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/60> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ072/2011-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    17362.0 ;
+        czso:prumernaMzda  19391.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/141> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2011-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
+        qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
+
+<http://data.czso.cz/resource/observation/average-salaries/CZ051/2010-12-31/F>
+        a                  qb:Observation ;
+        czso:medianMzdy    19946.0 ;
+        czso:prumernaMzda  21671.0 ;
+        czso:refArea       <http://ruian.linked.opendata.cz/resource/vusc/78> ;
+        czso:refPeriod     <http://reference.data.gov.uk/id/gregorian-day/2010-12-31> ;
+        czso:sex           <http://purl.org/linked-data/sdmx/2009/code#sex-F> ;
         qb:dataSet         <http://data.czso.cz/resource/dataset/average-salaries> .
