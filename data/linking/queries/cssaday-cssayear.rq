@@ -1,0 +1,18 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+ 
+# ./jena/bin/arq --data data/codelists/pomocne-ciselniky.trig --query data/linking/queries/cssaday-cssayear.rq > data/linking/cssaday-cssayear.ttl 
+ 
+CONSTRUCT {
+    ?cssaYear owl:sameAs  ?cssaDay .
+}  
+WHERE {
+    GRAPH <https://data.cssz.cz/resource/dataset/pomocne-ciselniky> {
+        ?cssaYear skos:inScheme <https://data.cssz.cz/ontology/years/YearsScheme>
+        BIND (REPLACE(str(?cssaYear),".*(\\d{4})","$1") as ?cssaYearValue)
+        ?cssaDay skos:inScheme <https://data.cssz.cz/ontology/days/DaysScheme>
+        FILTER (REGEX(str(?cssaDay), ".*day.*12-31"))
+        BIND (REPLACE(str(?cssaDay),".*(\\d{4})-12-31","$1") as ?cssaDayValue)
+        FILTER (?cssaYearValue = ?cssaDayValue)
+    }
+}
