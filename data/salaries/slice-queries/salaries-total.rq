@@ -1,11 +1,4 @@
 PREFIX qb: <http://purl.org/linked-data/cube#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX time: <http://www.w3.org/2006/time#>
-PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
-PREFIX cssz-dimension: <https://data.cssz.cz/ontology/dimension/>
-PREFIX cssz-measure:  <https://data.cssz.cz/ontology/measure/>
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX czso: <http://data.czso.cz/ontology/>
 
 # ./jena/bin/arq --data data/czso-average-salaries.trig --query queries/salaries-total.rq > results/salaries-total.ttl

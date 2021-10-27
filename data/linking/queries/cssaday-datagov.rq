@@ -1,0 +1,13 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+ 
+# ./jena/bin/arq --data data/codelists/pomocne-ciselniky.trig --query data/linking/queries/cssaday-datagov.rq > data/linking/cssaday-datagov.ttl 
+    
+CONSTRUCT {?cssaDay owl:sameAs ?dataGovDay}  
+WHERE {
+    GRAPH <https://data.cssz.cz/resource/dataset/pomocne-ciselniky> {
+        ?cssaDay skos:inScheme <https://data.cssz.cz/ontology/days/DaysScheme> .
+        ?cssaDay owl:sameAs ?dataGovDay
+        FILTER (REGEX(str(?dataGovDay), ".*\\d{4}-\\d{2}-\\d{2}"))
+    }
+}

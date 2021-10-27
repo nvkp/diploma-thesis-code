@@ -1,0 +1,67 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX cssz-dimension: <https://data.cssz.cz/ontology/dimension/>
+PREFIX cssz-measure:  <https://data.cssz.cz/ontology/measure/>
+PREFIX cssz-days:  <https://data.cssz.cz/ontology/days/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX czso: <http://data.czso.cz/ontology/>
+PREFIX cs: <http://purl.org/vocab/changeset/schema#>
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# ./jena/bin/arq --data data/codelists/pomocne-ciselniky.trig data/wikidata/wikidata.ttl --query data/wikidata/queries/wikidataChronicalDay.rq > data/wikidata/wikidataChronicalDay.ttl
+
+construct {
+?headRole <http://kizi.vse.cz/novp19/diploma-thesis/appliesToRefPeriod> ?refPeriod .
+?partyRole <http://kizi.vse.cz/novp19/diploma-thesis/appliesToRefPeriod> ?refPeriod .
+}
+where {
+   
+  	GRAPH <https://data.cssz.cz/resource/dataset/pomocne-ciselniky> {
+       	?refPeriod skos:inScheme cssz-days:DaysScheme .
+    	FILTER REGEX(str(?refPeriod), ".*day.*")
+       	FILTER REGEX(str(?refPeriod), "^.*\\d{4}-12-31")
+    	BIND(REPLACE(str(?refPeriod), "^.*(\\d{4}).*","$1") as ?refPeriodBind)
+    }
+    
+ 	?area p:P6 ?headRole .
+  	?headRole p:P580 ?headRoleStartDate .
+  	FILTER ( datatype(?headRoleStartDate) = xsd:string)	
+  	BIND(REPLACE(str(?headRoleStartDate), "^(\\d{4}).*","$1") as ?headRoleStartDateBind)
+    OPTIONAL {
+      ?headRole p:P582 ?headRoleEndDate .
+      FILTER ( datatype(?headRoleEndDate) = xsd:string)	
+      BIND(REPLACE(str(?headRoleEndDate), "^(\\d{4}).*","$1") as ?headRoleEndDateBind)
+    }
+  	FILTER (
+    (bound(?headRoleEndDateBind) && ?refPeriodBind >= ?headRoleStartDateBind && ?refPeriodBind <= ?headRoleEndDateBind)
+    ||
+    (!bound(?headRoleEndDateBind) && ?refPeriodBind >= ?headRoleStartDateBind && ?headRoleStartDateBind > "2000")
+  	)
+  
+  	OPTIONAL {
+    	?headRole p:P6 ?person .
+  		?person p:P102 ?partyRole .
+    	OPTIONAL {
+    		?partyRole p:P580 ?partyRoleStartDate .
+      		FILTER ( datatype(?partyRoleStartDate) = xsd:string)	
+  			BIND(REPLACE(str(?partyRoleStartDate), "^(\\d{4}).*","$1") as ?partyRoleStartDateBind)
+    	}
+    	OPTIONAL {
+      		?partyRole p:P582 ?partyRoleEndDate .
+      		FILTER ( datatype(?partyRoleEndDate) = xsd:string)	
+      		BIND(REPLACE(str(?partyRoleEndDate), "^(\\d{4}).*","$1") as ?partyRoleEndDateBind)
+    	}
+  		FILTER (
+    	(bound(?partyRoleEndDateBind) && ?refPeriodBind >= ?partyRoleStartDateBind && ?refPeriodBind <= ?partyRoleEndDateBind)
+    	||
+    	(!bound(?partyRoleEndDateBind) && ?refPeriodBind >= ?partyRoleStartDateBind && ?partyRoleStartDateBind > "2000")
+        ||
+    	(!bound(?partyRoleStartDateBind) && !bound(?partyRoleEndDateBind))
+  		)
+  	}
+}
