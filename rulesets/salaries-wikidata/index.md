@@ -2,14 +2,14 @@
 
 ## Unfiltered Rule Sets
 
-* [alignment-salaries](alignmentSalariesTaskRuleset.txt)
-* [party-salaries](partySalariesTaskRuleset.txt)
-* [salaries-alignment](salariesAlignmentTaskRuleset.txt)
-* [salaries-party](salariesPartyTaskRuleset.txt)
+* [alignment-salaries](alignmentSalariesPatternTaskRuleset.txt)
+* [party-salaries](partySalariesPatternTaskRuleset.txt)
+* [salaries-alignment](salariesAlignmentPatternTaskRuleset.txt)
+* [salaries-party](salariesPartyPatternTaskRuleset.txt)
 
 ## Filtered Rule Sets
 
-* [alignment-salaries](alignmentSalariesTaskRulesetFiltered.txt)
-* [party-salaries](partySalariesTaskRulesetFiltered.txt)
-* [salaries-alignment](salariesAlignmentTaskRulesetFiltered.txt)
-* [salaries-party](salariesPartyTaskRulesetFiltered.txt)
+* [alignment-salaries](alignmentSalariesPatternTaskRulesetFiltered.txt)
+* [party-salaries](partySalariesPatternTaskRulesetFiltered.txt)
+* [salaries-alignment](salariesAlignmentPatternTaskRulesetFiltered.txt)
+* [salaries-party](salariesPartyPatternTaskRulesetFiltered.txt)
